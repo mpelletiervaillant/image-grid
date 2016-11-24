@@ -25,7 +25,7 @@ body {
 img {
   width: 100%;
   float: left;
-  display: inline;
+  display: block;
 }
 
 img:nth-last-child(4) {
@@ -80,7 +80,7 @@ img:last-child {
 @media only screen and (min-width: 60em) {
 
   img:first-child {
-    width: 66.6666%
+    width: 66.6666%;
   }
 
   img:nth-child(2) {
