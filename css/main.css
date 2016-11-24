@@ -20,4 +20,9 @@ html {
 
 img {
   width: 100%;
+  float: left;
+}
+
+img:nth-last-child(4) {
+  display: none;
 }
